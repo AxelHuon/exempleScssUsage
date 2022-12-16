@@ -1,0 +1,42 @@
+// Création de toutes les classes de couleurs de text
+$colors  : ("primary" : $primary, "secondary" : $secondary);
+
+@each $name, $color in $colors {
+  .color-#{$name} {
+    .wpb_wrapper {
+      h1, h2, h3, h4, h5, h6, p, span, input, select, label{
+        color: $color;
+      }
+    }
+  }
+}
+
+
+//Création de toute les tailles de text
+$sizes  : ("50":50,"34" : 34, "20" : 20, "15" : 15);
+
+@each $name, $size in $sizes {
+  .text-#{$name} {
+    .wpb_wrapper {
+      h1, h2, h3, h4, h5, h6, p, span, input, select, label{
+        font-size: #{$size}px;
+        line-height: calc(#{$size}px + 5px);
+      }
+    }
+  }
+}
+
+
+//Création de toute les tailles de text
+$fonts  : ("bold": "Satoshi-Bold" ,"regular" : "Satoshi-Regular", "light" : "Satoshi-Light");
+@each $name, $font in $fonts {
+  .text-#{$name} {
+    .wpb_wrapper {
+      h1, h2, h3, h4, h5, h6, p, span, input, select, label{
+        font-family: $font;
+      }
+    }
+  }
+}
+
+

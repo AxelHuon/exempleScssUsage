@@ -1,0 +1,114 @@
+.color-primary .wpb_wrapper h1, .color-primary .wpb_wrapper h2, .color-primary .wpb_wrapper h3, .color-primary .wpb_wrapper h4, .color-primary .wpb_wrapper h5, .color-primary .wpb_wrapper h6, .color-primary .wpb_wrapper p, .color-primary .wpb_wrapper span, .color-primary .wpb_wrapper input, .color-primary .wpb_wrapper select, .color-primary .wpb_wrapper label {
+  color: #090754;
+}
+
+.color-secondary .wpb_wrapper h1, .color-secondary .wpb_wrapper h2, .color-secondary .wpb_wrapper h3, .color-secondary .wpb_wrapper h4, .color-secondary .wpb_wrapper h5, .color-secondary .wpb_wrapper h6, .color-secondary .wpb_wrapper p, .color-secondary .wpb_wrapper span, .color-secondary .wpb_wrapper input, .color-secondary .wpb_wrapper select, .color-secondary .wpb_wrapper label {
+  color: #2D6979;
+}
+
+.text-50 .wpb_wrapper h1, .text-50 .wpb_wrapper h2, .text-50 .wpb_wrapper h3, .text-50 .wpb_wrapper h4, .text-50 .wpb_wrapper h5, .text-50 .wpb_wrapper h6, .text-50 .wpb_wrapper p, .text-50 .wpb_wrapper span, .text-50 .wpb_wrapper input, .text-50 .wpb_wrapper select, .text-50 .wpb_wrapper label {
+  font-size: 50px;
+  line-height: calc(50px + 5px);
+}
+
+.text-34 .wpb_wrapper h1, .text-34 .wpb_wrapper h2, .text-34 .wpb_wrapper h3, .text-34 .wpb_wrapper h4, .text-34 .wpb_wrapper h5, .text-34 .wpb_wrapper h6, .text-34 .wpb_wrapper p, .text-34 .wpb_wrapper span, .text-34 .wpb_wrapper input, .text-34 .wpb_wrapper select, .text-34 .wpb_wrapper label {
+  font-size: 34px;
+  line-height: calc(34px + 5px);
+}
+
+.text-20 .wpb_wrapper h1, .text-20 .wpb_wrapper h2, .text-20 .wpb_wrapper h3, .text-20 .wpb_wrapper h4, .text-20 .wpb_wrapper h5, .text-20 .wpb_wrapper h6, .text-20 .wpb_wrapper p, .text-20 .wpb_wrapper span, .text-20 .wpb_wrapper input, .text-20 .wpb_wrapper select, .text-20 .wpb_wrapper label {
+  font-size: 20px;
+  line-height: calc(20px + 5px);
+}
+
+.text-15 .wpb_wrapper h1, .text-15 .wpb_wrapper h2, .text-15 .wpb_wrapper h3, .text-15 .wpb_wrapper h4, .text-15 .wpb_wrapper h5, .text-15 .wpb_wrapper h6, .text-15 .wpb_wrapper p, .text-15 .wpb_wrapper span, .text-15 .wpb_wrapper input, .text-15 .wpb_wrapper select, .text-15 .wpb_wrapper label {
+  font-size: 15px;
+  line-height: calc(15px + 5px);
+}
+
+.text-bold .wpb_wrapper h1, .text-bold .wpb_wrapper h2, .text-bold .wpb_wrapper h3, .text-bold .wpb_wrapper h4, .text-bold .wpb_wrapper h5, .text-bold .wpb_wrapper h6, .text-bold .wpb_wrapper p, .text-bold .wpb_wrapper span, .text-bold .wpb_wrapper input, .text-bold .wpb_wrapper select, .text-bold .wpb_wrapper label {
+  font-family: "Satoshi-Bold";
+}
+
+.text-regular .wpb_wrapper h1, .text-regular .wpb_wrapper h2, .text-regular .wpb_wrapper h3, .text-regular .wpb_wrapper h4, .text-regular .wpb_wrapper h5, .text-regular .wpb_wrapper h6, .text-regular .wpb_wrapper p, .text-regular .wpb_wrapper span, .text-regular .wpb_wrapper input, .text-regular .wpb_wrapper select, .text-regular .wpb_wrapper label {
+  font-family: "Satoshi-Regular";
+}
+
+.text-light .wpb_wrapper h1, .text-light .wpb_wrapper h2, .text-light .wpb_wrapper h3, .text-light .wpb_wrapper h4, .text-light .wpb_wrapper h5, .text-light .wpb_wrapper h6, .text-light .wpb_wrapper p, .text-light .wpb_wrapper span, .text-light .wpb_wrapper input, .text-light .wpb_wrapper select, .text-light .wpb_wrapper label {
+  font-family: "Satoshi-Light";
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.section_home_intro {
+  width: 100%;
+  height: 500px;
+  background: blue;
+}
+.section_home_intro_container {
+  max-width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}
+.section_home_intro_container_title {
+  padding: 1em;
+  background: orange;
+}
+.section_home_intro_container_description {
+  padding: 1em;
+  background-color: coral;
+}
+
+/*# sourceMappingURL=main.css.map */
